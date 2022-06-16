@@ -65,11 +65,14 @@ body{
 .section-three{
     text-align: right;
 } 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:900px) {
     .mem{
-       display:none;
+        width: 400px;
+        margin-top: 0;
+
     }
 }
+
 
 
 
