@@ -65,6 +65,14 @@ body{
 .section-three{
     text-align: right;
 } 
+@media only screen and (max-width:900px) {
+    .mem{
+        width: 400px;
+        margin-top: 0;
+
+    }
+}
+
 
 
 /* head section from this side up */
