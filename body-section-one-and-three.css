@@ -1,0 +1,78 @@
+.two{
+    display: flex;
+    padding-top: 70px;
+}
+
+.body-section-one{
+    width: 25%;
+    position: fixed;
+    height: 90%;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin:0;
+    padding:0;
+}
+@media only screen and (max-width:1100px) {
+    .body-section-one{
+   display: none;
+
+    }
+}
+.left-links{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 3px;
+}
+.left-links:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+.user-pic-div{
+    display: inline-block;
+    vertical-align: top;
+}
+.user-pic{
+    width: 30px;
+}
+.lists-div{
+    display: inline-block;
+     vertical-align: top;
+}
+
+.name-div{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+}
+.name-div-2{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+    padding-top:10px ;
+}
+.groups-name{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+    width: 200px;
+    margin-top: -10px
+}
+
+
+.body-section-three{
+    width: 25%;
+    position: fixed;
+    height: 85%;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-bottom:20px;
+    margin-left: 75% ;
+    margin-right: 0;
+}
+
+@media only screen and (max-width:900px) {
+    .body-section-three{
+        display: none;
+    }
+}

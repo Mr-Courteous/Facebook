@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f3f5;
+    margin: 0;
+    padding:0;
+
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 10px;
+    background-color: white;
+}
+.section-one{
+    flex:1;
+}
+.section-two{
+    flex:1;
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width: 700px){
+    .section-two{
+        display: none;
+    }
+}
+.section-three{
+    flex:1;
+    display: flex;
+    justify-content: end;
+    float: right;
+}
+.fb-logo{
+    float: left;
+    padding-left: 0;
+    margin-left: 5px;
+    width: 40px;
+}
+.search-box{
+     margin-left: 5px;
+     margin-top: 0;
+     height: 40px;
+     width: 200px;
+     border-radius: 10px;
+     border:none;
+     background-color: whitesmoke;
+     font-size: 13px;
+}
+
+@media only screen and (max-width: 1255px){
+    .search-box{
+        display: none;
+    }
+}
+.icon-one{
+    padding: 10px;
+    flex: 1;
+    float: right;
+}
+.section-three{
+    text-align: right;
+} 
+
+
+/* head section from this side up */
+
+
+
+
+
+
